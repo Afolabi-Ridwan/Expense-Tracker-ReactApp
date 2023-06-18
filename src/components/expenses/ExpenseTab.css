@@ -1,0 +1,31 @@
+body {
+  padding: 0 15vw;
+}
+
+.title {
+  color: white;
+}
+
+.tab {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 0;
+  background-color: #424849;
+  padding: 0 30px;
+  box-shadow: 4px 0px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.amount {
+  /* border: 2px solid; */
+  padding: 5px 20px;
+  /* border-radius: 10px; */
+  /* background-color: #232627; */
+  color: white;
+}
+
+@media (max-width: 514px) {
+  body {
+    padding: 0 10vw;
+  }
+}

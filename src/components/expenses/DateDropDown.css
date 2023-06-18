@@ -1,0 +1,15 @@
+#filterYear {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: -15px;
+  margin-top: 15px;
+}
+
+select {
+  padding: 3px 20px;
+}
+
+h3 {
+  font-size: 15px;
+}

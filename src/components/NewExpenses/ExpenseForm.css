@@ -1,0 +1,101 @@
+.container {
+  background-color: #ad5add;
+  padding: 10px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.tab1 {
+  width: 65vw;
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+  justify-content: space-between;
+}
+
+#title {
+}
+
+#amount,
+#title,
+#date {
+  color: white;
+  display: block;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"] {
+  padding: 5px 0;
+  width: 300px;
+}
+
+.expenseDate {
+  margin: 25px 0;
+}
+
+.expenseAmount {
+  margin-right: 15px;
+}
+
+#submitBtn {
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  margin-bottom: 20px;
+  background-color: #1f072c;
+  color: white;
+}
+
+#cancelBtn {
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  background-color: #1f072c;
+  color: white;
+}
+
+.submitExpense {
+  width: 65vw;
+  margin-left: -20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@media (max-width: 995px) {
+  .container {
+    padding: 10px 20px;
+  }
+
+  /* input[type="text"],
+  input[type="number"],
+  input[type="date"] {
+    width: 170px;
+  } */
+
+  .expenseDate {
+    margin-top: 5px;
+  }
+
+  .tab1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 20px 0;
+  }
+
+  .expenseAmount {
+    margin: 20px 0 -5px 0;
+  }
+}
+
+@media (max-width: 514px) {
+  input[type="text"],
+  input[type="number"],
+  input[type="date"] {
+    padding: 5px 0;
+    width: 250px;
+  }
+}

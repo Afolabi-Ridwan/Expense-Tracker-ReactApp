@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,29 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+body {
+  /* color: ; */
+  background-color: #424849;
 }
+
+#noExpense {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0;
+  background-color: #424849;
+  padding: 50px 30px;
+  box-shadow: 4px 0px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: white;
+  margin-top: 40px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  font-size: 20px;
+}
+/* 
+#tab {
+  padding: 5px;
+  background-color: rgba(35, 38, 39, 0.5);
+} */

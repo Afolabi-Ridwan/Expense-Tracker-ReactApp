@@ -1,0 +1,21 @@
+.date {
+  width: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  /* border-radius: 10px; */
+  text-align: center;
+  color: white;
+  margin: 10px 0;
+}
+
+.year {
+  font-size: 10px;
+}
+
+.month {
+  font-size: 12px;
+  font-weight: bold;
+}

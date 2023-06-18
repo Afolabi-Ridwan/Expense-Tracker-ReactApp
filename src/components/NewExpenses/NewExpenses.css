@@ -1,0 +1,18 @@
+#submitBtn {
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  margin-bottom: 20px;
+  background-color: #1f072c;
+  color: white;
+  margin: 20px;
+  /* margin-left: 25vw; */
+}
+
+.submitBtnContainer {
+  padding: 10px 30px;
+  background-color: #ad5add;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
