@@ -11,7 +11,10 @@ body {
   align-items: center;
   justify-content: space-between;
   margin: 10px 0;
-  background-color: #424849;
+  /* background-color: #424849; */
+  background-color: rgb(119, 45, 2);
+  /* background-color: rgb(190, 98, 44); */
+
   padding: 0 30px;
   box-shadow: 4px 0px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }

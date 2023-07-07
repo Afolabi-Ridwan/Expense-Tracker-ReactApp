@@ -1,5 +1,7 @@
 .container {
-  background-color: #ad5add;
+  /* background-color: #ad5add; */
+  background-color: rgb(119, 45, 2);
+
   padding: 10px 30px;
   display: flex;
   flex-direction: column;
@@ -45,7 +47,9 @@ input[type="date"] {
   border-radius: 10px;
   border: none;
   margin-bottom: 20px;
-  background-color: #1f072c;
+  /* background-color: #1f072c; */
+  background-color: rgb(187, 101, 52);
+
   color: white;
 }
 
@@ -53,7 +57,9 @@ input[type="date"] {
   padding: 10px 20px;
   border-radius: 10px;
   border: none;
-  background-color: #1f072c;
+  /* background-color: #1f072c; */
+  background-color: rgb(187, 101, 52);
+
   color: white;
 }
 
